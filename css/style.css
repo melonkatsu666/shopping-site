@@ -58,6 +58,8 @@ header {
         margin-right: 0; }
         header #nav ul li .image {
           display: none; }
+        header #nav ul li .spimage {
+          margin-right: 5px; }
         header #nav ul li .facebook {
           display: none; }
         header #nav ul li .facebook_sp {
@@ -277,8 +279,6 @@ main {
         font-size: large;
         font-weight: bold;
         margin: 15px 0; }
-      main .products .ex .ex_txt {
-        font-weight: bold; }
       main .products .ex .ex_box tr {
         border: solid 1px #e8e4da; }
         main .products .ex .ex_box tr th {
@@ -375,12 +375,12 @@ main {
     width: 100%; }
     main .items .group_items .item_box {
       text-align: center;
-      margin-top: 0.5rem;
-      margin-right: 0.5rem;
+      margin-top: 0.3rem;
+      margin-right: 0.3rem;
       padding: 1rem;
       background-color: #ffffff;
       box-sizing: border-box;
-      width: calc(33.3% - 3.4px); }
+      width: calc(33.3% - 1.9px); }
       main .items .group_items .item_box:nth-child(3n) {
         margin-right: 0; }
       main .items .group_items .item_box .item_text {
@@ -392,14 +392,14 @@ main {
     @media (max-width: 480px) {
       main .items .group_items .item_box {
         text-align: center;
-        margin-top: 0.5rem;
-        margin-right: 0.5rem;
+        margin-top: 0.3rem;
+        margin-right: 0.3rem;
         padding: 1rem;
         background-color: #ffffff;
         box-sizing: border-box;
-        width: calc(50% - 2.5px); }
+        width: calc(50% - 1.5px); }
         main .items .group_items .item_box:nth-child(3n) {
-          margin-right: 0.5rem; }
+          margin-right: 0.3rem; }
         main .items .group_items .item_box:nth-child(2n) {
           margin-right: 0; } }
   main .shopping_guide .guide_title_img {

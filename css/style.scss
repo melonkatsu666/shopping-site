@@ -104,6 +104,9 @@ header {
       .image {
         display: none;
       }
+      .spimage {
+        margin-right: 5px;
+      }
       .facebook {
         display: none;
       }
@@ -421,9 +424,6 @@ main {
          font-weight: bold;
          margin: 15px 0;
        }
-       .ex_txt{
-         font-weight: bold;
-       }
        .ex_box{
         tr {border: solid 1px #e8e4da;
         th {
@@ -567,12 +567,12 @@ main {
     
     .item_box {
       text-align: center;
-      margin-top: 0.5rem;
-      margin-right: 0.5rem;
+      margin-top: 0.3rem;
+      margin-right: 0.3rem;
       padding: 1rem;
       background-color: $sub;
       box-sizing: border-box;
-      width: calc(33.3% - 3.4px);
+      width: calc(33.3% - 1.9px);
       
       &:nth-child(3n){
         	margin-right: 0;
@@ -593,15 +593,15 @@ main {
     @media (max-width: 480px) {
       .item_box {
       text-align: center;
-      margin-top: 0.5rem;
-      margin-right: 0.5rem;
+      margin-top: 0.3rem;
+      margin-right: 0.3rem;
       padding: 1rem;
       background-color: $sub;
       box-sizing: border-box;
-      width: calc(50% - 2.5px);
+      width: calc(50% - 1.5px);
       
       &:nth-child(3n){
-        	margin-right: 0.5rem;
+        	margin-right: 0.3rem;
          }
       &:nth-child(2n){
         	margin-right: 0;
